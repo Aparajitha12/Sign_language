@@ -1,0 +1,31 @@
+# Ignore Python and system files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model files
+*.h5
+*.hdf5
+*.pt
+*.ckpt
+
+# Ignore datasets
+ASL dataset/
+sign_letters/
+
+# Ignore Streamlit-generated/temporary outputs
+*.gif
+*.webm
+*.mp4
+outputs/
+cache/
+
+# VS Code config (optional)
+.vscode/
+
+
